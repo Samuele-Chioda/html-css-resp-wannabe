@@ -128,26 +128,25 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-@media screen and (max-width: 992px) {
-    body {
-        font-family: 'Nunito Sans', sans-serif;
-        color: #41acd6;
-        background: #c528b8;
-    }
-    }
-
 @media screen and (max-width: 768px) {
-    body {
-        font-family: 'Nunito Sans', sans-serif;
-        color: #dfa810;
-        background: #19d687;
+    .site-header{
+        margin-top:0;
+        padding-top: 2rem;
     }
+    .container{
+        margin:0 auto;
+        max-width: 100%;
+    }
+    .why-us{
+        margin-bottom: 0;
+        padding-bottom: 2rem;
+    }
+    .why-us .col-left{
+        width: 100%;
     }
 
-    @media screen and (max-width: 576px) {
-        body {
-            font-family: 'Nunito Sans', sans-serif;
-            color: #ceb2ca;
-            background: #ff7300;
-        }
-        }
+    }
+
+@media screen and (max-width: 480px) {
+    
+    }
